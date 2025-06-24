@@ -1,0 +1,16 @@
+# Core data science packages
+pandas==2.2.3
+numpy==2.2.5
+
+# Excel file support 
+openpyxl==3.1.5 
+
+# NWB and related packages
+pynwb==3.0.0
+hdmf==3.14.6
+hdmf-zarr==0.11.1
+nwbwidgets==0.11.3
+
+# Jupyter and notebook support
+ipykernel==6.25.2
+ipython_genutils-0.2.0

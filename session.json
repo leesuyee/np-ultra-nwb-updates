@@ -1,0 +1,617 @@
+{
+    "describedBy": "https://raw.githubusercontent.com/AllenNeuralDynamics/aind-data-schema/main/src/aind_data_schema/core/session.py",
+    "schema_version": "0.2.1",
+    "protocol_id": "121-01-026-20",
+    "experimenter_full_name": [
+        "Andrew Shelton"
+    ],
+    "session_start_time": "2024-05-17T09:26:22.868269+00:00",
+    "session_end_time": "2024-05-17T11:47:08.401307+00:00",
+    "session_type": "A study on the effect of psilocybin on neocortical L5 pyramidal neurons using NP UHD (Switchable) probes",
+    "iacuc_protocol": "2104",
+    "rig_id": "325_NP1_Ultra_20240506",
+    "calibrations": [],
+    "maintenance": [],
+    "subject_id": "714789",
+    "animal_weight_prior": 24.8,
+    "animal_weight_post": null,
+    "weight_unit": "gram",
+    "data_streams": [
+        {
+            "stream_start_time": "2024-05-17T09:26:22.868269+00:00",
+            "stream_end_time": "2024-05-17T11:47:08.401307+00:00",
+            "daq_names": [
+                "Sync"
+            ],
+            "stim_modalities": "Behavior"
+        },
+        {
+            "stream_start_time": "2024-05-17T09:26:22.868269+00:00",
+            "stream_end_time": "2024-05-17T11:47:08.401307+00:00",
+            "daq_names": [],
+            "camera_names": [
+                "Front camera",
+                "Side camera",
+                "Eye camera"
+            ],
+            "stream_modalities": [
+                {
+                    "name": "Behavior videos",
+                    "abbreviation": "behavior-videos"
+                }
+            ]
+        }
+    ],
+    "stimulus_epochs": [
+        {
+            "stimulus_start_time": "2024-05-17T10:07:35+00:00",
+            "stimulus_end_time": "2024-05-17T10:11:06.016667+00:00",
+            "stimulus_name": "OptoTagging",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "OptoTagging",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {},
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": {
+                "name": "laser_488",
+                "wavelength": "488",
+                "wavelength_unit": "nanometers",
+                "laser_power": 13.5,
+                "laser_power_unit": "milliwatt",
+                "laser_duration": [
+                    0.01,
+                    0.2
+                ],
+                "optotagging_locations_bregmaX": [
+                    -0.6,
+                    -0.6,
+                    -2.0,
+                    -3.0
+                ],
+                "optotagging_locations_bregmaY": [
+                    1.2,
+                    -1.9,
+                    -4.0,
+                    -2.0
+                ],
+                "probes_targeted": [
+                    "A",
+                    "B",
+                    "D",
+                    "F"
+                ]
+            },
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": 100,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": "Psilocybin injection (3 mg/kg) occurred ~1 min after this stimulus epoch ended."
+        },
+        {
+            "stimulus_start_time": "2024-05-17T10:58:19+00:00",
+            "stimulus_end_time": "2024-05-17T11:01:50.383333+00:00",
+            "stimulus_name": "OptoTagging",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "OptoTagging",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {},
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": {
+                "name": "laser_488",
+                "wavelength": "488",
+                "wavelength_unit": "nanometers",
+                "laser_power": 13.5,
+                "laser_power_unit": "milliwatt",
+                "laser_duration": [
+                    0.01,
+                    0.2
+                ],
+                "optotagging_locations_bregmaX": [
+                    -0.6,
+                    -0.6,
+                    -2.0,
+                    -3.0
+                ],
+                "optotagging_locations_bregmaY": [
+                    1.2,
+                    -1.9,
+                    -4.0,
+                    -2.0
+                ],
+                "probes_targeted": [
+                    "A",
+                    "B",
+                    "D",
+                    "F"
+                ]
+            },
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": 100,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T11:42:54+00:00",
+            "stimulus_end_time": "2024-05-17T11:46:25.150000+00:00",
+            "stimulus_name": "OptoTagging",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "OptoTagging",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/OptoTagging.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {},
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": {
+                "name": "laser_488",
+                "wavelength": "488",
+                "wavelength_unit": "nanometers",
+                "laser_power": 13.5,
+                "laser_power_unit": "milliwatt",
+                "laser_duration": [
+                    0.01,
+                    0.2
+                ],
+                "optotagging_locations_bregmaX": [
+                    -0.6,
+                    -0.6,
+                    -2.0,
+                    -3.0
+                ],
+                "optotagging_locations_bregmaY": [
+                    1.2,
+                    -1.9,
+                    -4.0,
+                    -2.0
+                ],
+                "probes_targeted": [
+                    "A",
+                    "B",
+                    "D",
+                    "F"
+                ]
+            },
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": 100,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T09:47:24+00:00",
+            "stimulus_end_time": "2024-05-17T10:07:23.983333+00:00",
+            "stimulus_name": "RFMapping",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "RFMapping",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {
+                "stimulus_type": "Visual Stimulation",
+                "stimulus_name": "receptive-field mapping grating stimuli",
+                "orientations_deg": [
+                    0,
+                    45,
+                    90,
+                    135,
+                    180,
+                    225,
+                    270,
+                    315
+                ],
+                "position_x": [
+                    -798.722752847133,
+                    -479.2336517082798,
+                    -159.74455056942656,
+                    159.74455056942668,
+                    479.2336517082799,
+                    798.722752847133
+                ],
+                "position_y": [
+                    -438.7227528471331,
+                    -146.24091761571106,
+                    146.240917615711,
+                    438.7227528471331
+                ],
+                "size_deg": 20,
+                "spatial_frequency_cycles_per_deg": 0.08,
+                "temporal_frequency_cycles_per_sec": 4,
+                "type": "sqr",
+                "duration_sec": 0.25
+            },
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": null,
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": 2323,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T10:38:06+00:00",
+            "stimulus_end_time": "2024-05-17T10:58:05.983333+00:00",
+            "stimulus_name": "RFMapping",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "RFMapping",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {
+                "stimulus_type": "Visual Stimulation",
+                "stimulus_name": "receptive-field mapping grating stimuli",
+                "orientations_deg": [
+                    0,
+                    45,
+                    90,
+                    135,
+                    180,
+                    225,
+                    270,
+                    315
+                ],
+                "position_x": [
+                    -798.722752847133,
+                    -479.2336517082798,
+                    -159.74455056942656,
+                    159.74455056942668,
+                    479.2336517082799,
+                    798.722752847133
+                ],
+                "position_y": [
+                    -438.7227528471331,
+                    -146.24091761571106,
+                    146.240917615711,
+                    438.7227528471331
+                ],
+                "size_deg": 20,
+                "spatial_frequency_cycles_per_deg": 0.08,
+                "temporal_frequency_cycles_per_sec": 4,
+                "type": "sqr",
+                "duration_sec": 0.25
+            },
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": null,
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": 2323,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T11:22:42+00:00",
+            "stimulus_end_time": "2024-05-17T11:42:41.983333+00:00",
+            "stimulus_name": "RFMapping",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "RFMapping",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/RFMapping.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {
+                "stimulus_type": "Visual Stimulation",
+                "stimulus_name": "receptive-field mapping grating stimuli",
+                "orientations_deg": [
+                    0,
+                    45,
+                    90,
+                    135,
+                    180,
+                    225,
+                    270,
+                    315
+                ],
+                "position_x": [
+                    -798.722752847133,
+                    -479.2336517082798,
+                    -159.74455056942656,
+                    159.74455056942668,
+                    479.2336517082799,
+                    798.722752847133
+                ],
+                "position_y": [
+                    -438.7227528471331,
+                    -146.24091761571106,
+                    146.240917615711,
+                    438.7227528471331
+                ],
+                "size_deg": 20,
+                "spatial_frequency_cycles_per_deg": 0.08,
+                "temporal_frequency_cycles_per_sec": 4,
+                "type": "sqr",
+                "duration_sec": 0.25
+            },
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": null,
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": 2323,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T09:27:13+00:00",
+            "stimulus_end_time": "2024-05-17T09:47:12.983333+00:00",
+            "stimulus_name": "Spontaneous",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "Spontaneous",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {},
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": null,
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": null,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T10:17:55+00:00",
+            "stimulus_end_time": "2024-05-17T10:37:54.983333+00:00",
+            "stimulus_name": "Spontaneous",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "Spontaneous",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {},
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": null,
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": null,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        },
+        {
+            "stimulus_start_time": "2024-05-17T11:02:30+00:00",
+            "stimulus_end_time": "2024-05-17T11:22:29.983333+00:00",
+            "stimulus_name": "Spontaneous",
+            "session_number": null,
+            "software": [
+                {
+                    "name": "PsychoPy",
+                    "version": "2022.1.2",
+                    "url": "https://www.psychopy.org/",
+                    "parameters": {
+                        "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                        "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                    }
+                }
+            ],
+            "script": {
+                "name": "Spontaneous",
+                "version": "a498cb9582051b2fba3ccdbd4703cd97ad4033ad",
+                "url": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                "parameters": {
+                    "taskScript": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskControl": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskControl.py",
+                    "taskUtils": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask//a498cb9582051b2fba3ccdbd4703cd97ad4033ad/TaskUtils.py"
+                }
+            },
+            "stimulus_modalities": [
+                "Visual"
+            ],
+            "stimulus_parameters": {},
+            "stimulus_device_names": [
+                "Stim"
+            ],
+            "light_source_config": null,
+            "output_parameters": {},
+            "reward_consumed_during_epoch": null,
+            "reward_consumed_unit": "milliliter",
+            "trials_total": null,
+            "trials_finished": null,
+            "trials_rewarded": null,
+            "notes": ""
+        }
+    ],
+    "mouse_platform_name": "Mouse Platform",
+    "active_mouse_platform": false,
+    "notes": null
+}
