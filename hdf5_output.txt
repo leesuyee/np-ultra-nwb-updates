@@ -1,0 +1,221 @@
+HDF5 file: /Volumes/aind/scratch/andrew.shelton/NPUltra_data/raw_npultra_data/2024-05-14_714527/behavior/RFMapping_714527_20240514_104628.hdf5
+==================================================
+File structure:
+acquisitionSignalLine (Dataset): shape=(2,), dtype=int32
+amNoiseFreq (Dataset): shape=(5,), dtype=int32
+behavNidaqDevice (Dataset): shape=(), dtype=object
+behavNidaqDeviceSerialNum (Dataset): shape=(), dtype=int32
+computerName (Dataset): shape=(), dtype=float64
+configPath (Dataset): shape=(), dtype=float64
+deltaWheelPos (Dataset): shape=(0,), dtype=float64
+digitalSolenoidTrigger (Dataset): shape=(), dtype=bool
+diodeBoxPosition (Dataset): shape=(2,), dtype=int32
+diodeBoxSize (Dataset): shape=(), dtype=int32
+drawDiodeBox (Dataset): shape=(), dtype=bool
+frameIntervals (Dataset): shape=(71999,), dtype=float64
+frameRate (Dataset): shape=(), dtype=int32
+frameSignalLine (Dataset): shape=(2,), dtype=int32
+fullFieldContrast (Dataset): shape=(3,), dtype=int32
+galvoChannels (Dataset): shape=(3,), dtype=float64
+gammaErrorPolicy (Dataset): shape=(), dtype=object
+githubTaskScript (Dataset): shape=(), dtype=object
+gratingContrast (Dataset): shape=(), dtype=int32
+gratingEdge (Dataset): shape=(), dtype=object
+gratingEdgeBlurWidth (Dataset): shape=(), dtype=float64
+gratingOri (Dataset): shape=(8,), dtype=int32
+gratingSF (Dataset): shape=(), dtype=float64
+gratingSize (Dataset): shape=(), dtype=int32
+gratingTF (Dataset): shape=(), dtype=int32
+gridX (Dataset): shape=(6,), dtype=float64
+gridY (Dataset): shape=(4,), dtype=float64
+interStimFrames (Dataset): shape=(), dtype=int32
+lastFrame (Dataset): shape=(), dtype=int32
+lickDetectorFrames (Dataset): shape=(0,), dtype=float64
+lickFrames (Dataset): shape=(0,), dtype=float64
+lickLine (Dataset): shape=(2,), dtype=int32
+manualRewardFrames (Dataset): shape=(0,), dtype=float64
+maxBlocks (Dataset): shape=(), dtype=int32
+maxFrames (Dataset): shape=(), dtype=int32
+maxTrials (Dataset): shape=(), dtype=float64
+maxWheelAngleChange (Dataset): shape=(), dtype=float64
+microphoneCh (Dataset): shape=(), dtype=float64
+microphoneData (Dataset): shape=(0,), dtype=float64
+minWheelAngleChange (Dataset): shape=(), dtype=int32
+monBackgroundColor (Dataset): shape=(), dtype=int32
+monDistance (Dataset): shape=(), dtype=float64
+monGamma (Dataset): shape=(), dtype=float64
+monSizePix (Dataset): shape=(2,), dtype=int32
+monWidth (Dataset): shape=(), dtype=float64
+networkNidaqDevices (Dataset): shape=(1,), dtype=object
+optoChannels/ (Group)
+  optoChannels/laser_488 (Dataset): shape=(2,), dtype=int32
+  optoChannels/laser_633 (Dataset): shape=(2,), dtype=int32
+optoNidaqDevice (Dataset): shape=(), dtype=object
+optoNidaqDeviceSerialNum (Dataset): shape=(), dtype=int32
+optoParamsPath (Dataset): shape=(), dtype=float64
+optoSampleRate (Dataset): shape=(), dtype=int32
+pixelsPerDeg (Dataset): shape=(), dtype=float64
+rewardFrames (Dataset): shape=(0,), dtype=float64
+rewardLine (Dataset): shape=(2,), dtype=int32
+rewardSize (Dataset): shape=(0,), dtype=float64
+rewardSoundDeviceOpenTime (Dataset): shape=(), dtype=float64
+rewardSoundLine (Dataset): shape=(2,), dtype=int32
+rewardSyncLine (Dataset): shape=(2,), dtype=int32
+rewardVol (Dataset): shape=(), dtype=float64
+rigName (Dataset): shape=(), dtype=object
+rotaryEncoder (Dataset): shape=(), dtype=object
+rotaryEncoderCh (Dataset): shape=(), dtype=int32
+rotaryEncoderCount (Dataset): shape=(72000,), dtype=float64
+rotaryEncoderCountsPerRev (Dataset): shape=(), dtype=int32
+rotaryEncoderIndex (Dataset): shape=(72000,), dtype=float64
+rotaryEncoderSerialPort (Dataset): shape=(), dtype=object
+rotaryEncoderVolts (Dataset): shape=(0,), dtype=float64
+saveDir (Dataset): shape=(), dtype=object
+saveFrameIntervals (Dataset): shape=(), dtype=bool
+saveParams (Dataset): shape=(), dtype=bool
+savePath (Dataset): shape=(), dtype=object
+saveSoundArray (Dataset): shape=(), dtype=bool
+screen (Dataset): shape=(), dtype=int32
+solenoidOpenTime (Dataset): shape=(), dtype=float64
+soundCalibrationFit (Dataset): shape=(), dtype=float64
+soundChannel (Dataset): shape=(), dtype=float64
+soundDur (Dataset): shape=(), dtype=float64
+soundFilter (Dataset): shape=(), dtype=float64
+soundHanningDur (Dataset): shape=(), dtype=float64
+soundLevel (Dataset): shape=(), dtype=int32
+soundMode (Dataset): shape=(), dtype=object
+soundNidaqDevice (Dataset): shape=(), dtype=float64
+soundRandomSeed (Dataset): shape=(), dtype=int32
+soundSampleRate (Dataset): shape=(), dtype=int32
+soundVolume (Dataset): shape=(), dtype=float64
+spacebarRewardsEnabled (Dataset): shape=(), dtype=bool
+startTime (Dataset): shape=(), dtype=object
+stimFrames (Dataset): shape=(), dtype=int32
+stimStartFrame (Dataset): shape=(2323,), dtype=int32
+subjectName (Dataset): shape=(), dtype=object
+syncNidaqDevice (Dataset): shape=(), dtype=object
+syncNidaqDeviceSerialNum (Dataset): shape=(), dtype=int32
+taskVersion (Dataset): shape=(), dtype=float64
+toneFreq (Dataset): shape=(13,), dtype=int32
+trialAMNoiseFreq (Dataset): shape=(2323,), dtype=float64
+trialFullFieldContrast (Dataset): shape=(2323,), dtype=float64
+trialGratingOri (Dataset): shape=(2323,), dtype=float64
+trialSoundArray (Dataset): shape=(2323,), dtype=object
+trialToneFreq (Dataset): shape=(2323,), dtype=float64
+trialVisXY (Dataset): shape=(2323, 2), dtype=float64
+warp (Dataset): shape=(), dtype=object
+warpFile (Dataset): shape=(), dtype=float64
+waterCalibrationIntercept (Dataset): shape=(), dtype=float64
+waterCalibrationSlope (Dataset): shape=(), dtype=float64
+wheelPolarity (Dataset): shape=(), dtype=int32
+wheelPosRadians (Dataset): shape=(0,), dtype=float64
+wheelRadius (Dataset): shape=(), dtype=float64
+
+Top-level keys:
+  acquisitionSignalLine
+  amNoiseFreq
+  behavNidaqDevice
+  behavNidaqDeviceSerialNum
+  computerName
+  configPath
+  deltaWheelPos
+  digitalSolenoidTrigger
+  diodeBoxPosition
+  diodeBoxSize
+  drawDiodeBox
+  frameIntervals
+  frameRate
+  frameSignalLine
+  fullFieldContrast
+  galvoChannels
+  gammaErrorPolicy
+  githubTaskScript
+  gratingContrast
+  gratingEdge
+  gratingEdgeBlurWidth
+  gratingOri
+  gratingSF
+  gratingSize
+  gratingTF
+  gridX
+  gridY
+  interStimFrames
+  lastFrame
+  lickDetectorFrames
+  lickFrames
+  lickLine
+  manualRewardFrames
+  maxBlocks
+  maxFrames
+  maxTrials
+  maxWheelAngleChange
+  microphoneCh
+  microphoneData
+  minWheelAngleChange
+  monBackgroundColor
+  monDistance
+  monGamma
+  monSizePix
+  monWidth
+  networkNidaqDevices
+  optoChannels
+  optoNidaqDevice
+  optoNidaqDeviceSerialNum
+  optoParamsPath
+  optoSampleRate
+  pixelsPerDeg
+  rewardFrames
+  rewardLine
+  rewardSize
+  rewardSoundDeviceOpenTime
+  rewardSoundLine
+  rewardSyncLine
+  rewardVol
+  rigName
+  rotaryEncoder
+  rotaryEncoderCh
+  rotaryEncoderCount
+  rotaryEncoderCountsPerRev
+  rotaryEncoderIndex
+  rotaryEncoderSerialPort
+  rotaryEncoderVolts
+  saveDir
+  saveFrameIntervals
+  saveParams
+  savePath
+  saveSoundArray
+  screen
+  solenoidOpenTime
+  soundCalibrationFit
+  soundChannel
+  soundDur
+  soundFilter
+  soundHanningDur
+  soundLevel
+  soundMode
+  soundNidaqDevice
+  soundRandomSeed
+  soundSampleRate
+  soundVolume
+  spacebarRewardsEnabled
+  startTime
+  stimFrames
+  stimStartFrame
+  subjectName
+  syncNidaqDevice
+  syncNidaqDeviceSerialNum
+  taskVersion
+  toneFreq
+  trialAMNoiseFreq
+  trialFullFieldContrast
+  trialGratingOri
+  trialSoundArray
+  trialToneFreq
+  trialVisXY
+  warp
+  warpFile
+  waterCalibrationIntercept
+  waterCalibrationSlope
+  wheelPolarity
+  wheelPosRadians
+  wheelRadius
